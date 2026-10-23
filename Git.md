@@ -31,7 +31,9 @@ Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, ki
 
 **git commit -m "*mesaj*"**  - Staging area'daki dosyayı local repository kaydeder. Bir save point noktası oluşturur.
 							   Her commit'in kendine ait bir hash var.
+
 **git log**					 - Commit geçmişini listeler.
 
+**.gitignore**				 - git tarafından takip edilmeyecek dosyaların, dosya uzantılarının yazdığı bir dosyadır.
 
 
