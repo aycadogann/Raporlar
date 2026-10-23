@@ -37,3 +37,10 @@ Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, ki
 **.gitignore**				 - git tarafından takip edilmeyecek dosyaların, dosya uzantılarının yazdığı bir dosyadır.
 
 **git branch**				 - Güncel branch'leri gösterir.
+**git branch branch_adı**	 - Yeni branch oluşturur.
+
+**git switch branch_adı**	 - Branch değiştirmemizi sağlar.
+
+**git merge branch_adı**	 - main branch'teyken başka bir branch'te yapılan değişiklikleri birleştirmek istediğimizde kullanılır.
+
+** **
