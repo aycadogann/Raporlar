@@ -36,4 +36,4 @@ Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, ki
 
 **.gitignore**				 - git tarafından takip edilmeyecek dosyaların, dosya uzantılarının yazdığı bir dosyadır.
 
-
+**git branch**				 - aynı proje üzerinde çalışırken main'e paralel bir dal üzerinden çalışma imkanı sağlar.
