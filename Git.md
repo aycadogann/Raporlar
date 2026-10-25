@@ -51,6 +51,7 @@ Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, ki
 
 **git diff**				 - Staging area'ya almadan önce yaptığımız değişiklikleri gösterir.
 							   Yani değişiklik yaptık ve git add komutunu çalıştırmadıysak yaptığımız değişiklikleri bu komut ile görebiliriz.
+
 **git diff HEAD**			 - Son commit'e göre yaptığımız değişiklikleri gösteriyor.
 
 
