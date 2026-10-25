@@ -55,6 +55,9 @@ Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, ki
 
 **git reset commit_id**		 - Verilen commit id'den sonraki commit'leri siler ama uygulamada yapılan değişiklikler silinmez.
 
-**git reset hard commit_id** -Verilen commit id'den sonraki commitleri siler, uygulamada yapılan değişiklikleri de siler.
+**git reset hard commit_id** - Verilen commit id'den sonraki commitleri siler, uygulamada yapılan değişiklikleri de siler.
 
+**git revert commit_id**	 - main branch'teyken hem commit'i hem de uygulamadaki değişiklikleri git'e eklemek istediğim zaman 
+							   ayrıca checkout'taki gibi farklı bir branch eklemeden main branch'ten devam etmek istediğim zaman kullanabilirim.
 
+							   
