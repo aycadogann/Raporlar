@@ -43,4 +43,5 @@ Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, ki
 
 **git merge branch_adı**	 - main branch'teyken başka bir branch'te yapılan değişiklikleri birleştirmek istediğimizde kullanılır.
 
-** **
+**git stash**				 - kodlarım commit etmeye hazır olmadığında, farklı bir branch'te yapılması gereken bir iş olduğunda 
+							   bu komut ile git hazır olmayan kodları kendi içinde bir alanda saklıyor.
