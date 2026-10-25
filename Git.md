@@ -45,3 +45,6 @@ Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, ki
 
 **git stash**				 - kodlarım commit etmeye hazır olmadığında, farklı bir branch'te yapılması gereken bir iş olduğunda 
 							   bu komut ile git hazır olmayan kodları kendi içinde bir alanda saklıyor.
+**git stash pop**			 - Saklakdığımız kodları tekrar çalışma alanımıza ekliyor. Birden fazla stash varsa hepsini ekler.
+
+
