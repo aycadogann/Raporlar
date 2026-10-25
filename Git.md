@@ -57,3 +57,4 @@ Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, ki
 **git rebase**				 - Bir branch'teki commitleri alıp farklı bir branch'in sonuna eklemek için kullanılır. 
 							   Önemli nokta ise bu uygulamada başka kişilerin kullanmamış olmasıdır.
 
+**git push**				 - Local depodaki uygulamayı remote yükler.
