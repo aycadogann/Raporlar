@@ -59,5 +59,6 @@ Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, ki
 
 **git revert commit_id**	 - main branch'teyken hem commit'i hem de uygulamadaki değişiklikleri git'e eklemek istediğim zaman 
 							   ayrıca checkout'taki gibi farklı bir branch eklemeden main branch'ten devam etmek istediğim zaman kullanabilirim.
-
+							   Yapılan değişiklikleri yeni bir commit olarak kaydetsek de eski commit'de commit geçmişinde kalır.
 							   
+
