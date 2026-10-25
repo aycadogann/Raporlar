@@ -53,8 +53,8 @@ Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, ki
 							   commit'e dönsek bile main branch'teki uygulama son commit'te kalıyor. Bu yüzden eski commit'e 
 							   döndüğümüz yer için yeni bir branch açmalıyız.
 
-**git reset commit_id**		 - Verilen commit id'den sonraki commit'leri siler ama uygulamada yapılan işlemler silinmez.
+**git reset commit_id**		 - Verilen commit id'den sonraki commit'leri siler ama uygulamada yapılan değişiklikler silinmez.
 
-
+**git reset hard commit_id** -Verilen commit id'den sonraki commitleri siler, uygulamada yapılan değişiklikleri de siler.
 
 
