@@ -49,4 +49,8 @@ Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, ki
 
 **git restore dosya_adı**    - Bu komut ile uygulamamızın bir önceki commit'teki haline geri dönüyoruz.
 
- 
+**git checkout commit_id**	 - Uygulamayı yazılan commit id'deki haline döndürür. Burada dikkat edilmesi gereken nokta eski 
+							   commit'e dönsek bile main branch'teki uygulama son commit'te kalıyor. Bu yüzden eski commit'e 
+							   döndüğümüz yer için yeni bir branch açmalıyız.
+
+
