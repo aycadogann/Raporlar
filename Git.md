@@ -1,15 +1,3 @@
-**ls ->** bulunduğumuz klasörün içindeki dosya ve klasörleri gösterir
-
-**cd *klasör\_adı* ->** o klasörün içine yerleşir.                              *cd:change directory*
-
-**cd .. ->** bir üst dizine/klasöre çıkılır.
-
-**clear ->** ekranı temizle
-
-**mkdir *klasör\_adı* ->** klasör oluştur                                       *mkdir:make directory*
-
-
-
 **GİT**
 
 Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, kitap yazarken, ödev yaparken de kullanılabilir.
@@ -60,5 +48,12 @@ Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, ki
 **git revert commit_id**	 - main branch'teyken hem commit'i hem de uygulamadaki değişiklikleri git'e eklemek istediğim zaman 
 							   ayrıca checkout'taki gibi farklı bir branch eklemeden main branch'ten devam etmek istediğim zaman kullanabilirim.
 							   Yapılan değişiklikleri yeni bir commit olarak kaydetsek de eski commit'de commit geçmişinde kalır.
-							   
+
+**git diff**				 - Staging area'ya almadan önce yaptığımız değişiklikleri gösterir.
+							   Yani değişiklik yaptık ve git add komutunu çalıştırmadıysak yaptığımız değişiklikleri bu komut ile görebiliriz.
+**git diff HEAD**			 - Son commit'e göre yaptığımız değişiklikleri gösteriyor.
+
+
+**git rebase**				 - Bir branch'teki commitleri alıp farklı bir branch'in sonuna eklemek için kullanılır. 
+							   Önemli nokta ise bu uygulamada başka kişilerin kullanmamış olmasıdır.
 
