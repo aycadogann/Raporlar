@@ -1,4 +1,4 @@
-#**GİT**#
+##**GİT**##
 
 Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, kitap yazarken, ödev yaparken de kullanılabilir.
 
@@ -15,6 +15,7 @@ Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, ki
 **git init**              	 - Bulunduğu klasörde git'i başlatır.
 
 **git add *dosya\_adı***     - Dosyayı staging area'ya ekler.
+
 **git add .**				 - Klasördeki tüm değiştirilmiş dosyaları staging area'ya ekler.
 
 **git commit -m "*mesaj*"**  - Staging area'daki dosyayı local repository kaydeder. Bir save point noktası oluşturur.
@@ -25,6 +26,7 @@ Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, ki
 **.gitignore**				 - git tarafından takip edilmeyecek dosyaların, dosya uzantılarının yazdığı bir dosyadır.
 
 **git branch**				 - Güncel branch'leri gösterir.
+
 **git branch *branch\_adı***	 - Yeni branch oluşturur.
 
 **git switch *branch\_adı***	 - Branch değiştirmemizi sağlar.
@@ -60,4 +62,10 @@ Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, ki
 
 **git push**				 - Local depodaki uygulamayı remote yükler.
 
-**pull request**		 - Başka bir branch açarak değişiklik yapıp daha sonra yapılan değişikliklerin main branch ile birleştirilmesini talep etmek için kullanılır.
+**pull request**		 	 - Başka bir branch açarak değişiklik yapıp daha sonra yapılan değişikliklerin main branch ile birleştirilmesini talep etmek için kullanılır.
+
+**git fetch**				 - Remote repo'daki uygulamamızda bir değişiklik yapıldığında bunu git fetch komutu ile local repo'ya indirebiliriz. 
+							  Bu komutu kullandığımızda remote repo'daki uygulamayı local repo'ya yükleriz ama local repo'daki uygulamamızda değişiklik olmaz.
+							  git merge yaparak remote repo'daki uygulama ile local repo'daki uygulamayı birleştiririz. 	
+
+**git pull**				 - Remote repo'daki uygulamayı local repo'ya çeker ve otomatik olarak birleştirir.
