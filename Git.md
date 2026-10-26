@@ -1,4 +1,4 @@
-##**GİT**##
+**GİT**
 
 Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, kitap yazarken, ödev yaparken de kullanılabilir.
 
@@ -69,3 +69,5 @@ Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, ki
 							  git merge yaparak remote repo'daki uygulama ile local repo'daki uygulamayı birleştiririz. 	
 
 **git pull**				 - Remote repo'daki uygulamayı local repo'ya çeker ve otomatik olarak birleştirir.
+
+**git clone *repo\_url***	 - Remote repo'daki uygulamayı bilgisayara indir.
