@@ -71,3 +71,16 @@ Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, ki
 **git pull**				 - Remote repo'daki uygulamayı local repo'ya çeker ve otomatik olarak birleştirir.
 
 **git clone *repo\_url***	 - Remote repo'daki uygulamayı bilgisayara indir.
+
+
+
+
+## **Commit mesajı yazarken kullanılabilecek etiketler**
+
+**feat** : Yeni bir özellik eklendiğinde kullanılır.
+
+**fix** : Bir hata düzeltildiğinde kullanılır.
+
+**docs** : Dokümantasyon, not değiştiğinde kullanılır.
+
+**refactor** : Kod daha temiz ve okunabilir hale getirildiğinde kullanılır.
