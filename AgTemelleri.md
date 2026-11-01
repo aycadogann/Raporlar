@@ -56,3 +56,19 @@ Ses ya da görüntü aktarımında kullanılabilir.
 
 İnternet ağını oluşturan her birimin kendine ait bir IP adresi vardır. Bu IP adresleri *www.site_ismi.com* gibi kolay hatırlanabilen adreslere dönüştürülür. DNS sunucuları da bu IP adreslerine karşılık gelen alan adlarını tutar.
 
+
+## **ping**
+
+Bir cihazdan gönderilen veri paketinin sunucuya gidip tekrar cihaza dönme süresini ifade eder. *milisaniye* olarak ölçülür. *ICMP(Internet Control Message Protocol)* protokolünü kullanır.
+
+
+## **Traceroute**
+
+Bir bilgisayardan sunucuya gönderilen veri paketinin hangi yolları izlediğini ve her adımda ne kadar süre geçirdiğini gösterir.
+
+Ağ sorunlarını çözmek ve nerede gecikme yaşandığını bulmak için yardımcı olur.
+
+
+## **Nslookup**
+
+DNS alan adları bilgilerini bulmamıza olanak sağlayan bir komuttur.
