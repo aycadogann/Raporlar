@@ -1,17 +1,18 @@
-## **AĞ TEMELLERİ**
+# **AĞ TEMELLERİ**
 
-# **IP**
+
+## **IP**
 
 İnternete veya yerel bir ağa bağlı her cihazın bilgi alışverişi yapmasını sağlayan bir kimlik numarasıdır, benzersizdir. 
 
-						*192.168.1.1* - *Bir IP örneğidir*
+			192.168.1.1 
 
 Nokta ile ayrılmış dört gruptan oluşan bu sayısal değerleri akılda tutmak zor olduğu için IP adreslerine karşılık gelen alan adları vardır. 
 
 Şuan IPv4 kullanıyoruz ama yetersiz geldiği için IPv6 geliştirilmiştir.
 
 
-# **PORT**
+## **PORT**
 
 Bir cihazın dış dünya ile iletişim kurmak için kullandığı kapıdır. Fiziksel ve sanal olmak üzere ikiye ayrılır.
 
@@ -25,14 +26,15 @@ Sanal kapılar olarak da adlandırabiliriz. Bir cihazın belirli bir görevi yer
 
 IP adresinden sonra :(iki nokta) eklenerek port numarası yazılır.
 
-			*192.168.1.1:443* 
+			192.168.1.1:443 
 
-Aşağıdaki görselde uygulamalar ve portları yer almaktadır
+Aşağıdaki görselde uygulamalar ve portları yer almaktadır.
+
 
 ![Sanal Portlar](https://miro.medium.com/v2/resize:fit:1200/1*8oi5Ultq-6DhRKYas7TrnA.png)
 
 
-# **TCP (Transmission Control Protocol)**
+## **TCP (Transmission Control Protocol)**
 
 Bilgisayarlar arasındaki veri iletişimi küçük paketler halinde ve kayıpsız olarak gerçekleşmesini sağlayan bir ağ protokoldür.
 
@@ -43,14 +45,14 @@ Bu protokolde veri paketleri kaybolmaz, eksik geldiğinde tekrar istek gönderil
 Bu protokol üç aşamada gerçekleşir. İlk aşamada bağlantı için istek gönderilir. İkinci aşamada veri gönderilir. Üçüncü aşamada ise veri gönderme işlemi biter ve bağlantı sonlandırılır.
 
 
-# **UDP (User Datagram Protocol)**
+## **UDP (User Datagram Protocol)**
 
 Verileri bağlantı kurmadan iletir. Hızlıdır ama veri kayıpları yaşanabilir. Güvenli değildir. 
 
 Ses ya da görüntü aktarımında kullanılabilir.
 
 
-# **DNS (Domain Name Server)**
+## **DNS (Domain Name Server)**
 
-
+İnternet ağını oluşturan her birimin kendine ait bir IP adresi vardır. Bu IP adresleri *www.site_ismi.com* gibi kolay hatırlanabilen adreslere dönüştürülür. DNS sunucuları da bu IP adreslerine karşılık gelen alan adlarını tutar.
 
