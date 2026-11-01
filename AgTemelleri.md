@@ -7,8 +7,7 @@
 
 			192.168.1.1 
 
-Nokta ile ayrılmış dört gruptan oluşan bu sayısal değerleri akılda tutmak zor olduğu için IP adreslerine karşılık gelen alan adları vardır. 
-
+Nokta ile ayrılmış dört gruptan oluşan bu sayısal değerleri akılda tutmak zor olduğu için IP adreslerine karşılık gelen alan adları vardır.
 Şuan IPv4 kullanıyoruz ama yetersiz geldiği için IPv6 geliştirilmiştir.
 
 
@@ -37,19 +36,14 @@ Aşağıdaki görselde uygulamalar ve portları yer almaktadır.
 ## **TCP (Transmission Control Protocol)**
 
 Bilgisayarlar arasındaki veri iletişimi küçük paketler halinde ve kayıpsız olarak gerçekleşmesini sağlayan bir ağ protokoldür.
-
 En önemli özelliği veriyi gönderirken ve alırken kimlik doğrulaması yapmasıdır. 
-
 Bu protokolde veri paketleri kaybolmaz, eksik geldiğinde tekrar istek gönderilerek paketlerin tamamının alınması sağlanır. Böylece veri bütünlüğü korunmuş olur.
-
 Bu protokol üç aşamada gerçekleşir. İlk aşamada bağlantı için istek gönderilir. İkinci aşamada veri gönderilir. Üçüncü aşamada ise veri gönderme işlemi biter ve bağlantı sonlandırılır.
 
 
 ## **UDP (User Datagram Protocol)**
 
-Verileri bağlantı kurmadan iletir. Hızlıdır ama veri kayıpları yaşanabilir. Güvenli değildir. 
-
-Ses ya da görüntü aktarımında kullanılabilir.
+Verileri bağlantı kurmadan iletir. Hızlıdır ama veri kayıpları yaşanabilir. Güvenli değildir. Ses ya da görüntü aktarımında kullanılabilir.
 
 
 ## **DNS (Domain Name Server)**
@@ -57,7 +51,7 @@ Ses ya da görüntü aktarımında kullanılabilir.
 İnternet ağını oluşturan her birimin kendine ait bir IP adresi vardır. Bu IP adresleri *www.site_ismi.com* gibi kolay hatırlanabilen adreslere dönüştürülür. DNS sunucuları da bu IP adreslerine karşılık gelen alan adlarını tutar.
 
 
-## **ping**
+## **Ping**
 
 Bir cihazdan gönderilen veri paketinin sunucuya gidip tekrar cihaza dönme süresini ifade eder. *milisaniye* olarak ölçülür. *ICMP(Internet Control Message Protocol)* protokolünü kullanır.
 
@@ -65,7 +59,6 @@ Bir cihazdan gönderilen veri paketinin sunucuya gidip tekrar cihaza dönme sür
 ## **Traceroute**
 
 Bir bilgisayardan sunucuya gönderilen veri paketinin hangi yolları izlediğini ve her adımda ne kadar süre geçirdiğini gösterir.
-
 Ağ sorunlarını çözmek ve nerede gecikme yaşandığını bulmak için yardımcı olur.
 
 
