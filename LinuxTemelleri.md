@@ -27,3 +27,7 @@ Yazılımların kurulması, güncellenmesi, kaldırılması gibi işlemleri kaps
 **pacman** - Arch Linux'de kullanılan paketlerin yönetiminden sorumlu olan paket yöneticisidir.  *pacman : Package Manager*
 
 **dnf** - Red Hat tabanlı sistemlerin paket yöneticisidir.  *dnf : Dandified YUM*
+
+## Dosya İzinleri
+
+Bir dosyanın ya da dizinin kimler tarafından okunabileceğini, değiştirilebileceğini, çalıştırabileceğini belirleyen erişim kurallarıdır. 
