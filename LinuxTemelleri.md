@@ -35,3 +35,10 @@ Yazılımların kurulması, güncellenmesi, kaldırılması gibi işlemleri kaps
 ## Dosya İzinleri
 
 Bir dosyanın ya da dizinin kimler tarafından okunabileceğini, değiştirilebileceğini, çalıştırabileceğini belirleyen erişim kurallarıdır. 
+
+
+## Servisler
+
+Arayüzü olmayan, arka planda çalışan, belirli bir görevi yerine getiren kod parçalarıdır. Kullanım alanlarına göre kategorilere ayrılırlar; işletim sistemi servisleri, web servisler, yazılım mimarisi servisleri gibi...
+
+**systemctl** ise Linux'de kullanılan arka planda çalışan servisleri ve sistem kaynaklarını yöneten komut satırıdır. 
