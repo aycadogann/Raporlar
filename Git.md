@@ -1,4 +1,4 @@
-**GİT**
+## **GİT**
 
 Git, bir versiyon kontrol sistemidir. Sadece yazılım geliştirirken değil, kitap yazarken, ödev yaparken de kullanılabilir.
 
