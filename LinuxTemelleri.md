@@ -1,5 +1,6 @@
 # Linux Temelleri
 
+
 ## Terminal Komutları
 
 * **ls** - Bulunduğumuz dizindeki dosya ya da klasörleri listeler.
@@ -15,6 +16,7 @@
 * **top** - Çalışan işlemleri anlık izlememizi sağlar. 
 
 
+
 ## Paket Yönetimi
 
 Linux'ta bir program sadece o programın kodlarından ibaret değildir. Genellikle çalışması için başka kütüphanelere, araçlara ve bağımlılıklara ihtiyaç duyar. Kurmak istediğiniz program X kütüphanesini ister, X kütüphanesi de Y kütüphanesinin 2.0 sürümünü ister ama sizin sisteminizde 1.0 vardır... Paket yönetimi programın tüm ihtiyaçlarını bir arada toplar.
@@ -27,6 +29,8 @@ Yazılımların kurulması, güncellenmesi, kaldırılması gibi işlemleri kaps
 **pacman** - Arch Linux'de kullanılan paketlerin yönetiminden sorumlu olan paket yöneticisidir.  *pacman : Package Manager*
 
 **dnf** - Red Hat tabanlı sistemlerin paket yöneticisidir.  *dnf : Dandified YUM*
+
+
 
 ## Dosya İzinleri
 
